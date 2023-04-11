@@ -1,0 +1,90 @@
+@import url(https://fonts.bunny.net/css?family=aclonica:400|albert-sans:200,300,400);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #1F2937;
+    color: #D5D4D8;
+}
+
+header {
+    margin: 1em;
+}
+header h1 {
+    line-height: .8;
+    font-size: 3.3rem;
+    font-family: 'Aclonica', sans-serif;
+}
+
+.container {
+    margin: 0.5em;;
+}
+
+main {
+    border: 1px solid gray;
+}
+
+.color-selection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+}
+
+.color-schemes{
+    height: 60vh;
+    width: 20%;
+}
+
+.color-container{
+    display: flex;
+    background-color: #F55A5A;
+    height: 60vh;
+}
+
+#test{
+    width: 3.8125em;
+    height: 2.6875em;
+
+    cursor: pointer;
+
+    margin: 0.8125em;
+}
+
+#schemes{
+    background-color: #1F2937;
+    color: #D5D4D8;
+    border: 1px solid #D5D4D8;
+    border-radius: 6px;
+
+    height: 2.6875em;
+    width: 19.5em;
+    margin: 0.8125em;
+
+    cursor: pointer;
+}
+
+.get-color{
+    background-color: #3D4B60;
+    color: #D5D4D8;
+    height: 2.6875em;
+    width: 9.6875em;
+    border: none;
+    border-radius: 4px;
+    margin: 0.8125em;
+    cursor: pointer;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 7vh;
+}
